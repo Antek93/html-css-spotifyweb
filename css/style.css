@@ -20,7 +20,7 @@ body {
 .side-box {
     background-color: #000000;
     width: 15vw;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     color: white;
     z-index: 9;
     position: fixed;
@@ -47,14 +47,14 @@ body {
 }
 
 .logo-box {
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
 .logo-box img {
-    width: 80%;
+    width: 60%;
 }
 
 .side-container > ol  {
@@ -89,21 +89,23 @@ body {
 .head-box {
     background-color: rgba(0, 0, 0, 0.363);
     width: 100vw;
-    height: 80px;
-    color: white;
+    height: 100px;
     z-index: 3;
     position: fixed;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    text-decoration: none;
 }
 
-.head-box div {
+.head-box a {
     background-color: black;
     border: 1px solid white;
     border-radius: 25px;
     padding: 10px 30px;
     margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .side-container h4 {
@@ -114,7 +116,34 @@ body {
 
 /* MAIN  */
 
-/* ASIDE */
+.padding {
+    background-color: #141922;
+    min-height: 100px;
+    width: 100%;
+    margin-right: calc(100% - 13vw);
+} 
+
+.main-box {
+    background-color: #141922;
+    min-height: 100px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: calc(100vw - 85vw);
+    color: white;
+}
+
+.upmenu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.upmenu li {
+    padding: 0px 30px;
+}
+
 
 
 
