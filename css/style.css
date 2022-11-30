@@ -125,7 +125,6 @@ body {
 
 .main-box {
     background-color: #141922;
-    min-height: 100px;
     width: 100%;
     padding-top: 10px;
     padding-left: calc(100vw - 85vw);
@@ -143,6 +142,54 @@ body {
 .upmenu li {
     padding: 0px 30px;
 }
+
+.white-font {
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.recent {
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-box img {
+    width: 100%
+}
+
+.genre {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.johndoe {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .padd {
+    padding-right: 70px;
+ }
+
+ #pad {
+    padding-left: 15px;
+    padding-top: 15px;
+ }
 
 
 
