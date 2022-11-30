@@ -20,7 +20,7 @@ body {
 .side-box {
     background-color: #000000;
     width: 15vw;
-    height: calc(100vh - 70px);
+    height: calc(100% - 80px);
     color: white;
     z-index: 9;
     position: fixed;
@@ -79,9 +79,10 @@ body {
     display: flex;
     align-content: flex-end;
     max-height: 110.44px;
+    /* min-height: 110.44px; */
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 
