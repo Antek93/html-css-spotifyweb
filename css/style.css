@@ -41,7 +41,7 @@ body {
 
 .side-container {
     width: 200px;
-    margin: 0 auto;
+    margin: 0 15px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -108,7 +108,8 @@ body {
 }
 
 .logo-box img {
-    width: 60%;
+    width: 63%;
+    margin-left: -8px;
 }
 
 .spotify {
@@ -144,7 +145,7 @@ body {
 
 .last-container {
     width: 200px;
-    margin: 0 auto;
+    margin: 0px 10px;
     display: flex;
     align-content: flex-end;
     max-height: 110.44px;
@@ -311,6 +312,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 44px;
+}
+
+.fa-plus-square {
+    font-size: 33px;
+    padding-right: 10px;
+    transform: translate(2px, -6px);
+    color: gray;
 }
 
 
