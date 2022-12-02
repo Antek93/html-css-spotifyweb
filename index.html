@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
+    
     <!-- LINK FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -37,15 +38,15 @@
                             <i class="fa-brands fa-spotify"></i>
                             <a class="hidden" href="#"></a>
                         </li>
-                        <li class="symbols hide-border">
+                        <li class="symbols bord">
                             <i class="fa-solid fa-house"></i>
                             <a class="hidden" href="#">Home</a>
                         </li>
-                        <li class="symbols">
+                        <li class="symbols bord">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <a class="hidden" href="#">Cerca</a>
                         </li>
-                        <li class=" symbols">
+                        <li class=" symbols bord">
                             <i class="fas fa-book"></i>
                             <a class="hidden" href="#">La tua libreria</a>
                         </li>
@@ -117,7 +118,9 @@
 
         <!-- BARRA E PULSANTE LATERALE FISSATO IN ALTO  -->
         <div class="head-box">
-            <a href="#">Effettua l'upgrade</a>
+            <div class="focus">
+                <a href="#">Effettua l'upgrade</a>
+            </div>
         </div>
     </header>
     <main>
@@ -302,7 +305,43 @@
 
         <!-- BARRA MULTIMEDIALE SUL BOTTOM  -->
         <div class="play-box">
-
+            <div class="media-player">
+                <div class="menu-sinistro">
+                    <div class="brano">
+                       <div class="copertina">
+                         <div class="sin-box">
+                            <img id="sin" src="img/sinister.jpeg" alt="">
+                         </div>
+                         <div class="specifiche">
+                            <div id="titolino">Sinister</div>
+                            <div id="disc">Brano Nome</div>
+                         </div>
+                       </div>
+                       <div class="icone"> 
+                          <div><i class="fa-regular fa-heart"></i></div>
+                          <div><i class="fa-regular fa-folder"></i></div>
+                       </div>
+                    </div>
+                </div>
+                <div class="debug de2">
+                   <div>
+                    ciao
+                   </div>
+                   <div>
+                    ciao
+                   </div>
+                </div>
+                <div class="debug menu-destro">
+                    <div class="icone-dx"> 
+                        <div><i class="fa-solid fa-list"></i></div>
+                        <div><i class="fa-solid fa-tv"></i></div>
+                        <div><i class="fa-solid fa-volume-high"></i></div>
+                        <div class="w3-light-grey">
+                            <div class="w3-grey" style="height:24px;width:25%"></div>
+                        </div>
+                     </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

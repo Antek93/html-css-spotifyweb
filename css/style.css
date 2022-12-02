@@ -149,7 +149,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    overflow: scroll;
     height: 50%;
     
 }
@@ -187,6 +187,11 @@ body {
     margin-right: 20px;
     text-decoration: none;
     color: white;
+}
+
+.focus:hover  {
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .side-container h4 {
@@ -227,7 +232,7 @@ body {
     
 }
 
-.symbols:hover {
+.bord:hover {
     border-left: 3px inset rgb(106 241 42);
 }
 
@@ -345,9 +350,102 @@ body {
 .play-box {
     background-color: #282828;
     width: 100%;
-    min-height: 80px; /* da rimuovere */
+    height: 80px;
     color: white;
     z-index: 9;
     position: fixed;
     bottom: 0;
 }
+
+.media-player {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.debug {
+    min-height: 80px;
+    background-color: red;
+    width:calc((100% / 3) - 40px);
+}
+
+.de2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MENU MEDIA PLAYER SINISTRO  */
+
+.menu-sinistro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:calc((100% / 3) - 40px);
+}
+
+.brano {
+    display: flex;
+}
+
+.copertina {
+    display: flex;
+}
+
+.sin-box {
+    width: 45px;
+    height: 44px;
+    margin-left: 11px;
+}
+
+#sin {
+    width:100%;
+}
+
+.specifiche {
+    padding-left: 10px;
+}
+
+#titolino {
+    font-weight: bold;
+    color: white;
+}
+
+#disc {
+    color: gray;
+    font-weight: 600;
+}
+
+.icone {
+    color: gray;
+    display: flex;
+    padding-left: 33px;
+    font-size: 19px;
+    padding-top: 16px;
+}
+
+
+.fa-heart {
+    padding-right: 15px;
+}
+
+/* MENU MEDIA PLAYER DESTRO  */
+
+.menu-destro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icone-dx {
+    color: white;
+    display: flex;
+    padding-left: 33px;
+    font-size: 19px;
+    padding-top: 16px;
+}
+
+.fa-tv {
+    padding: 0px 30px;
+}
+    
