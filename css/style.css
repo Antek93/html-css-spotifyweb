@@ -87,6 +87,10 @@ body {
     transform: translate(1px, -2px);
 }
 
+.installa {
+    padding-top: 10px;
+}
+
 .fa-user {
     transform: translate(95%,58%);
 }
@@ -102,11 +106,12 @@ body {
     line-height: 33px;
 }
 
-.Installa
 
 .hr-style {
-    width: 25%;
+    width: 54%;
     margin: 2px 0px;
+    padding-left: 1px;
+    margin: 3px 0px;
 }
 
 .logo-box {
