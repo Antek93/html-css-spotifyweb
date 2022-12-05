@@ -377,10 +377,12 @@ body {
 
 .brano {
     display: flex;
+    align-items: center;
 }
 
 .copertina {
     display: flex;
+    align-items: center;
 }
 
 .sin-box {
@@ -540,7 +542,6 @@ body {
 /* SECONDO LETTORE MULTIMEDIALE */
 
 .lettore2 {
-    height: 50%;
     display: flex;
     justify-content: center;
 }
